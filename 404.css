@@ -1,0 +1,74 @@
+/* Genel Sayfa Stili */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif; /* Site temasıyla uyumlu font */
+    background: url('/img/sandvic-gif.webp') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Error container */
+.error-container {
+    background-color: rgba(0, 0, 0, 0.6); /* Transparan koyu arka plan */
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur(12px); /* Bulanık arka plan */
+    width: 80%;
+    max-width: 500px;
+}
+
+/* Error message */
+.error-message {
+    font-size: 1.2em;
+}
+
+/* Hata kodu */
+.error-code {
+    font-size: 120px;
+    font-weight: bold;
+    color: #ff3c3c; /* Canlı kırmızı */
+    margin: 0;
+}
+
+/* Açıklama */
+.error-description {
+    font-size: 18px;
+    margin: 20px 0;
+    color: #aaa;
+}
+
+/* Ana sayfaya dönme linki */
+.back-home {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #ff3c3c; /* Canlı kırmızı */
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    border: 2px solid #ff3c3c;
+    transition: 0.3s;
+}
+
+.back-home:hover {
+    background-color: rgba(255, 60, 60, 0.2);
+    color: white;
+    transform: translateY(-3px);
+}
+
+/* Small screen adjustments */
+@media (max-width: 768px) {
+    .error-code {
+        font-size: 80px;
+    }
+    .error-description {
+        font-size: 16px;
+    }
+}
