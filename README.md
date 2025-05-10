@@ -35,7 +35,7 @@ Bu proje, **HTML, CSS ve JavaScript** kullanılarak geliştirilmiş bir **profil
 1. **Projeyi İndirin veya Kopyalayın**
 
    ```bash
-   git clone https://github.com/kullanici_adi/realsandvic.git
+   git clone [https://github.com/kullanici_adi/realsandvic.git](https://github.com/Sandvicdev/sandvicdev-profil.git)
 
 2. **Gerekli Dosyaları Açın**
 
